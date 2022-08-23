@@ -1,19 +1,17 @@
 
 <!-- # FilmFlix Code Test for MaginePro-->
 
+### Table of contents
+* [FYI](#install)
+* [Install](#install)
+* [Usage](#usage)
+* [License](#license)
 ## FYI
 
 I decided to use a small React, React-Router boilerplate because to get focus on the components and app design.
 
 In this app you can see that techs used React, MobX, React-Router, MobX-Router, Cypress and Webpack. I've do my best with the few time that i have to this type of code test even i'll try to do some crypress test but i got an error that i can't debug (i can show you) although you can see with the cypress cli.
 
-### Table of contents
-
-* [Install](#install)
-* [Usage](#usage)
-* [Support this project](#support-this-project)
-* [Code of Conduct](#code-of-conduct)
-* [License](#license)
 
 ### Install
 
