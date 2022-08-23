@@ -1,0 +1,27 @@
+// Card component
+
+.card-container {
+  display: grid;
+  flex: 0 1 auto;
+  align-items: center;
+
+  p {
+    position: absolute;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 230ms ease-in-out;
+    transform-style: preserve-3d;
+    will-change: transform;
+    -webkit-box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.39);
+    box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.39);
+  }
+}

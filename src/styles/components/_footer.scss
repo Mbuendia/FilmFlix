@@ -1,0 +1,23 @@
+// Footer component
+
+footer {
+  padding: remy(18px) 0;
+  width: 100%;
+  font-size: remy(13px);
+  text-align: center;
+  border-top: 1px solid $color-white;
+  bottom: 0px;
+  position: fixed;
+  background-color: $color-white;
+
+  a {
+    margin-left: .5ch;
+
+    &:first-child {
+      margin-right: .5ch;
+    }
+    a:link {
+      background-color: $color-grey;
+    }
+  }
+}

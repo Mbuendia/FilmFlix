@@ -1,0 +1,42 @@
+// Page Home
+
+.home {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: remy(80px);
+  padding-top: remy(100px);
+  text-align: center;
+  width: 90%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  main {
+    padding: remy(48px) remy(24px);
+
+    @media screen and (min-width: 961px) {
+      margin: 0 auto;
+      width: 100%;
+      max-width: remy(960px);
+    }
+  }
+}
+
+.main__header {
+  padding-bottom: 72px;
+  width: 100%;
+  color: #000;
+  text-align: center;
+}
+
+.main__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 37px;
+  @media screen and (min-width: 961px) {
+    padding: 0 remy(120px);
+  }
+  @media screen and (max-width: 361px) {
+    display: block;
+  }
+}
